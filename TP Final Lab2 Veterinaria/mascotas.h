@@ -1,7 +1,8 @@
 #ifndef MASCOTAS_H_INCLUDED
 #define MASCOTAS_H_INCLUDED
-
 #include "fecha.h"
+
+using namespace std;
 
 class mascotas{
     private:
@@ -16,7 +17,9 @@ class mascotas{
         Fecha fechaVacuna;
         bool vivo;
     public:
-        mascotas(const char nombre);
+        mascotas(const char*);
+        void mostrar();
+
 
 };
 
