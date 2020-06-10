@@ -16,6 +16,7 @@ class mascotas{
         Fecha fechaVacuna;
         bool vivo;
     public:
+        mascotas(const char nombre);
 
 };
 
