@@ -4,6 +4,7 @@
 #include "fecha.h"
 
 using namespace std;
+#include "mascotas.h"
 ///CONSTANTES DAT
 const char ARCHIVOHISTORIAS[20]="historias.dat";
 const char ARCHIVOCLIENTES[20]="clientes.dat";
@@ -18,6 +19,9 @@ const char ARCHIVOARANCELESBKP[20]="aranceles.bkp";
 
 int main()
 {
-
-    return 0;
+    // PRUEBA DE GITHUB
+    mascotas reg("michi");
+    reg.mostrar();
+    cout<<endl;
+        return 0;
 }
