@@ -19,7 +19,6 @@ class mascotas{
     public:
         mascotas(const char*);
         void mostrar();
-        ~mascotas();
 
 
 };
