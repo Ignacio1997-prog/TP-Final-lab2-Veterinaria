@@ -2,8 +2,6 @@
 #include<iostream>
 #include "mascotas.h"
 
-
-
 mascotas::mascotas(const char *nombre)
 {
     strcpy(nombreMascota,nombre);
@@ -12,3 +10,5 @@ mascotas::mascotas(const char *nombre)
 void mascotas::mostrar(){
     cout<< " Nombre de mascota :"<<nombreMascota;
 }
+
+mascotas::~mascotas(){};
